@@ -1,0 +1,19 @@
+{
+    "name": "shizhice/payment",
+    "description": "aliay、wechat 支付集成包",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shizhice",
+            "email": "shizhice@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "files": [ "helper.php" ],
+        "psr-4": { "Shizhice\\Payment\\": "" }
+    }
+}
